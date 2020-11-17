@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
+using System;
 
 namespace MusicWorld.Models
 {
@@ -21,7 +22,7 @@ namespace MusicWorld.Models
                 context.Musics.AddRange(
                         new Musics
                         {
-
+                            ReleaseDate = new DateTime(2020, 06, 05)
                         }
                     );
                 context.SaveChanges();
