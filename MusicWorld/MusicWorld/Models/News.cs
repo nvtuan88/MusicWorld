@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace MusicWorld.Models
 {
-    public class Singer
+    public class News
     {
-        public int SingerId { get; set; }
-
-        [Required, StringLength(100), Display(Name ="Singer Name")]
-        public string SingerName { get; set; }
+        public int NewId { get; set; }
+        public string ImageNew { get; set; }
 
         [Required, StringLength(10000), Display(Name = "Singer Description"), DataType(DataType.MultilineText)]
-        public string DescriptionSinger { get; set; }
+        public string DescriptionNew { get; set; }
 
-        public virtual Musics Musics { get; set; }
     }
 }
