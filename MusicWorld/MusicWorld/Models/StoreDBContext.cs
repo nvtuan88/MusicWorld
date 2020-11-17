@@ -10,5 +10,8 @@ namespace MusicWorld.Models
         }
 
         public DbSet<Musics> Musics { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Singer> Singers { get; set; }
+        public DbSet<Album> Albums { get; set; }
     }
 }

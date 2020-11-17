@@ -10,11 +10,17 @@ namespace MusicWorld.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Url { get; set; }
-        public string Description { get; set; }
-        public string Image { get; set; }
-        public string author { get; set; }
-        public string singer { get; set; }
-        public string album { get; set; }
+
+        public int? AuthorId { get; set; }
+        public virtual Author Author { get; set; }
+
+
+        public int? SingerId { get; set; }
+        public virtual Singer Singer{ get; set; }
+
+        public int? AlbumId { get; set; }
+        public virtual Album Album { get; set; }
+
         public DateTime ReleaseDate { get; set; }
     }
 }
