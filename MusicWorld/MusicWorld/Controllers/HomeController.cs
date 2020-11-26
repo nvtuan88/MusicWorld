@@ -6,26 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MusicWorld.Models;
-using MusicWorld.Models.ViewModel;
+
 namespace MusicWorld.Controllers
 {
     public class HomeController : Controller
     {
-        private IStoreRepository repository;
+        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(IStoreRepository repo)
+        public HomeController(ILogger<HomeController> logger)
         {
-            repository = repo;
+            _logger = logger;
         }
 
-        public ViewResult Index()
-           => View(new ListViewModel
-           {
-               Musics = repository.Musics,
-               Singers = repository.Singers,
-               Albums = repository.Albums,
-               Authors = repository.Authors
-           });
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

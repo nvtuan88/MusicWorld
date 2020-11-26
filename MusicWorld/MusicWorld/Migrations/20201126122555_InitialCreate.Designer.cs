@@ -10,8 +10,8 @@ using MusicWorld.Models;
 namespace MusicWorld.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
-    [Migration("20201126124605_Initial")]
-    partial class Initial
+    [Migration("20201126122555_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
