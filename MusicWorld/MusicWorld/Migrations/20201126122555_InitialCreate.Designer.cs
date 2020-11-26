@@ -10,7 +10,7 @@ using MusicWorld.Models;
 namespace MusicWorld.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
-    [Migration("20201124033418_InitialCreate")]
+    [Migration("20201126122555_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace MusicWorld.Migrations
 
             modelBuilder.Entity("MusicWorld.Models.Album", b =>
                 {
-                    b.Property<int>("AlbumId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -36,14 +36,14 @@ namespace MusicWorld.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("AlbumId");
+                    b.HasKey("Id");
 
                     b.ToTable("Albums");
                 });
 
             modelBuilder.Entity("MusicWorld.Models.Author", b =>
                 {
-                    b.Property<int>("AuthorId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -58,7 +58,7 @@ namespace MusicWorld.Migrations
                         .HasMaxLength(10000)
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("AuthorId");
+                    b.HasKey("Id");
 
                     b.ToTable("Authors");
                 });
@@ -90,22 +90,18 @@ namespace MusicWorld.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AlbumId")
-                        .IsUnique()
-                        .HasFilter("[AlbumId] IS NOT NULL");
+                    b.HasIndex("AlbumId");
 
                     b.HasIndex("AuthorId");
 
-                    b.HasIndex("SingerId")
-                        .IsUnique()
-                        .HasFilter("[SingerId] IS NOT NULL");
+                    b.HasIndex("SingerId");
 
                     b.ToTable("Musics");
                 });
 
             modelBuilder.Entity("MusicWorld.Models.Singer", b =>
                 {
-                    b.Property<int>("SingerId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
@@ -120,7 +116,7 @@ namespace MusicWorld.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("SingerId");
+                    b.HasKey("Id");
 
                     b.ToTable("Singers");
                 });
@@ -128,16 +124,16 @@ namespace MusicWorld.Migrations
             modelBuilder.Entity("MusicWorld.Models.Musics", b =>
                 {
                     b.HasOne("MusicWorld.Models.Album", "Album")
-                        .WithOne("Musics")
-                        .HasForeignKey("MusicWorld.Models.Musics", "AlbumId");
+                        .WithMany("Musics")
+                        .HasForeignKey("AlbumId");
 
                     b.HasOne("MusicWorld.Models.Author", "Author")
                         .WithMany("Musics")
                         .HasForeignKey("AuthorId");
 
                     b.HasOne("MusicWorld.Models.Singer", "Singer")
-                        .WithOne("Musics")
-                        .HasForeignKey("MusicWorld.Models.Musics", "SingerId");
+                        .WithMany("Musics")
+                        .HasForeignKey("SingerId");
 
                     b.Navigation("Album");
 

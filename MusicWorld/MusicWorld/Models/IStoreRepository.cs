@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace MusicWorld.Models
 {
-    public class IStoreRepository
+    public interface IStoreRepository
     {
         IQueryable<Musics> Musics { get; }
+        IQueryable<Author> Authors { get; }
+        IQueryable<Singer> Singers { get; }
+        IQueryable<Album> Albums { get; }
+
     }
 }

@@ -54,8 +54,6 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\ru
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csprojAssemblyReference.cache
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfoInputs.cache
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfo.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csproj.CoreCompileInputs.cache
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.MvcApplicationPartsAssemblyInfo.cache
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.RazorAssemblyInfo.cache
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.RazorAssemblyInfo.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.TagHelpers.input.cache
@@ -77,3 +75,11 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\st
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.dll
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.pdb
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.genruntimeconfig.cache
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csproj.CoreCompileInputs.cache
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.MvcApplicationPartsAssemblyInfo.cache

@@ -11,42 +11,42 @@ namespace MusicWorld.Migrations
                 name: "Albums",
                 columns: table => new
                 {
-                    AlbumId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     AlbumName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Albums", x => x.AlbumId);
+                    table.PrimaryKey("PK_Albums", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Authors",
                 columns: table => new
                 {
-                    AuthorId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AuthorName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     DescriptionAuthor = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Authors", x => x.AuthorId);
+                    table.PrimaryKey("PK_Authors", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Singers",
                 columns: table => new
                 {
-                    SingerId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     SingerName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     DescriptionSinger = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Singers", x => x.SingerId);
+                    table.PrimaryKey("PK_Singers", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -69,28 +69,26 @@ namespace MusicWorld.Migrations
                         name: "FK_Musics_Albums_AlbumId",
                         column: x => x.AlbumId,
                         principalTable: "Albums",
-                        principalColumn: "AlbumId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Musics_Authors_AuthorId",
                         column: x => x.AuthorId,
                         principalTable: "Authors",
-                        principalColumn: "AuthorId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Musics_Singers_SingerId",
                         column: x => x.SingerId,
                         principalTable: "Singers",
-                        principalColumn: "SingerId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Musics_AlbumId",
                 table: "Musics",
-                column: "AlbumId",
-                unique: true,
-                filter: "[AlbumId] IS NOT NULL");
+                column: "AlbumId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Musics_AuthorId",
@@ -100,9 +98,7 @@ namespace MusicWorld.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Musics_SingerId",
                 table: "Musics",
-                column: "SingerId",
-                unique: true,
-                filter: "[SingerId] IS NOT NULL");
+                column: "SingerId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

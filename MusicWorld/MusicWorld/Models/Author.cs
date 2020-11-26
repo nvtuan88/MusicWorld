@@ -8,7 +8,7 @@ namespace MusicWorld.Models
 {
     public class Author
     {
-        public int AuthorId { get; set; }
+        public int Id { get; set; }
 
         [Required, StringLength(100), Display(Name = "Author Name")]
         public string AuthorName { get; set; }

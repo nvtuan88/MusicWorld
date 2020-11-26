@@ -32,6 +32,7 @@ namespace MusicWorld
                         Configuration["ConnectionStrings:MusicWorldConnection"]
                     );
             });
+            services.AddScoped<IStoreRepository, EFStoreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +61,7 @@ namespace MusicWorld
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            SeedData.SeedDataMusic(app);
         }
     }
 }
