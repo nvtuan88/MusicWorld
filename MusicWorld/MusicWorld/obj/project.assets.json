@@ -6746,19 +6746,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GithubRepos\\MusicWorld\\MusicWorld\\MusicWorld\\MusicWorld.csproj",
+      "projectUniqueName": "D:\\Work\\xampp\\htdocs\\MusicWorld\\MusicWorld\\MusicWorld\\MusicWorld.csproj",
       "projectName": "MusicWorld",
-      "projectPath": "F:\\GithubRepos\\MusicWorld\\MusicWorld\\MusicWorld\\MusicWorld.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\GithubRepos\\MusicWorld\\MusicWorld\\MusicWorld\\obj\\",
+      "projectPath": "D:\\Work\\xampp\\htdocs\\MusicWorld\\MusicWorld\\MusicWorld\\MusicWorld.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\xampp\\htdocs\\MusicWorld\\MusicWorld\\MusicWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6833,7 +6833,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

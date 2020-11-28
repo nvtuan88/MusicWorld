@@ -169,3 +169,8 @@ F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWor
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.pdb
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.genruntimeconfig.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MusicSummary.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\MusicSummary.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\Play.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_PlayLayout.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImport.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
