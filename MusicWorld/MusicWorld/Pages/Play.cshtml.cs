@@ -31,7 +31,7 @@ namespace MusicWorld.Pages
         {
             Musics musics = repository.Musics.FirstOrDefault(p => p.Id == musicId);
             Playlist = HttpContext.Session.GetJson<Playlist>("playlist") ?? new Playlist();
-            Playlist.AddItem(musics, 1);
+
             HttpContext.Session.SetJson("playlist", Playlist);
             return RedirectToPage(new { returnUrl = returnUrl });
 
