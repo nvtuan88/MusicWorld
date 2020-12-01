@@ -22,8 +22,36 @@ namespace MusicWorld.Controllers
         public ViewResult Index()
                 => View(new ListViewModel
                 {
-                     Musics = repository.Musics
+                    Musics = repository.Musics,
+                    Singers = repository.Singers,
+                    Albums = repository.Albums,
+                    Authors = repository.Authors
                 });
+
+        public ViewResult Albums()
+        => View(new ListViewModel
+        {
+            Albums = repository.Albums,
+        });
+        public ViewResult Author()
+        => View(new ListViewModel
+        {
+            Authors = repository.Authors,
+        });
+        public ViewResult Musics()
+        => View(new ListViewModel
+        {
+            Musics = repository.Musics,
+        });
+        public ViewResult News()
+        {
+            return View();
+        }
+        public ViewResult Singers()
+        => View(new ListViewModel
+        {
+            Singers = repository.Singers,
+        });
 
         public IActionResult Privacy()
         {

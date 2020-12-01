@@ -1,0 +1,9 @@
+﻿@model ListViewModel
+<p>This is musics page</p>
+<div class="card-columns">
+    @foreach (var p in Model.Musics)
+    {
+        <partial name="MusicSummary" model="p" />
+    }
+</div>
+

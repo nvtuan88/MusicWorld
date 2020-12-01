@@ -1,7 +1,23 @@
 ﻿@model ListViewModel
+<h5 style="width:100%"> HOT MUSICS </h5>
 <div class="card-columns">
-    @foreach (var p in Model.Musics)
+    @foreach (var p in Model.Musics.Take(3))
     {
         <partial name="MusicSummary" model="p" />
     }
 </div>
+<h5> HOT SINGERS </h5>
+@foreach (var s in Model.Singers.Take(3))
+{
+    <partial name="SingerSummary" model="s" />
+}
+<h5 style="width:100%"> HOT ALBUMS </h5>
+@foreach (var a in Model.Albums.Take(3))
+{
+    <partial name="AlbumSummary" model="a" />
+} 
+<h5 style="width:100%"> HOT AUTHORS </h5>
+@foreach (var b in Model.Authors.Take(3))
+{
+    <partial name="AuthorSummary" model="b" />
+}

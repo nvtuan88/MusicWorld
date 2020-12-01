@@ -142,7 +142,6 @@ F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csprojAssemblyReference.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfoInputs.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfo.cs
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csproj.CoreCompileInputs.cache
@@ -174,3 +173,16 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Ra
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_PlayLayout.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImport.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\Play.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_PlayLayout.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImport.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\Albums.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\Author.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\Musics.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\News.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\Singers.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AlbumSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AuthorSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NewSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SingerSummary.cshtml.g.cs

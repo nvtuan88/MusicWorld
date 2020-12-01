@@ -7,9 +7,9 @@
         <h5 class="card-title">Album:  @*@Model.Album.AlbumName*@</h5>
     </div>
     <form method="post" asp-page="/Play" id="@Model.Id">
-        <input type="hidden" asp-for="Id"/>
+        <input type="hidden" asp-for="Id" />
         <input type="hidden" name="returnUrl"
-               value="@ViewContext.HttpContext.Request.PathAnyQuery()"/>
+               value="@ViewContext.HttpContext.Request.PathAnyQuery()" />
         <span class="card-text p-1">
             <button type="submit" class="btn btn-success btn-sm pull-right" style="float:right">
                 Add To Cart

@@ -1,0 +1,8 @@
+﻿@model ListViewModel
+<p>This is author page</p>
+<div class="card-columns">
+    @foreach (var p in Model.Authors)
+    {
+        <partial name="AuthorSummary" model="p" />
+    }
+</div>
