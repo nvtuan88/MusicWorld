@@ -121,23 +121,23 @@ namespace MusicWorld.Migrations
 
             modelBuilder.Entity("MusicWorld.Models.Musics", b =>
                 {
-                    b.HasOne("MusicWorld.Models.Album", "Album")
+                    b.HasOne("MusicWorld.Models.Album", "Albums")
                         .WithMany("Musics")
                         .HasForeignKey("AlbumId");
 
-                    b.HasOne("MusicWorld.Models.Author", "Author")
+                    b.HasOne("MusicWorld.Models.Author", "Authors")
                         .WithMany("Musics")
                         .HasForeignKey("AuthorId");
 
-                    b.HasOne("MusicWorld.Models.Singer", "Singer")
+                    b.HasOne("MusicWorld.Models.Singer", "Singers")
                         .WithMany("Musics")
                         .HasForeignKey("SingerId");
 
-                    b.Navigation("Album");
+                    b.Navigation("Albums");
 
-                    b.Navigation("Author");
+                    b.Navigation("Authors");
 
-                    b.Navigation("Singer");
+                    b.Navigation("Singers");
                 });
 
             modelBuilder.Entity("MusicWorld.Models.Album", b =>

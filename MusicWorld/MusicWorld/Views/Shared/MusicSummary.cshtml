@@ -5,6 +5,10 @@
         <h5 class="card-title font-weight-lighter">Author: @Model.Authors.AuthorName</h5>
         <h5 class="card-title font-weight-lighter" style="font-size:14px">Singer: @Model.Singers.SingerName</h5>
         <h5 class="card-title font-weight-lighter" style="font-size:14px">Album:  @Model.Albums.AlbumName</h5>
+        <audio controls>
+            <source src="@Model.Url" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
     </div>
     <form method="post" asp-page="/Play" id="@Model.Id" style="position:absolute;bottom:0;right:0">
         <input type="hidden" asp-for="Id" />

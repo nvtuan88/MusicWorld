@@ -91,7 +91,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "How You Like That",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/how-you-like-that-tsvwvsb3q924qw.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 1,
                             SingerId = 1,
                             AlbumId = 1,
@@ -100,7 +100,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Ice Cream",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink-selena-gomez/ice-cream-tsvmqmvbq8e82q.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 1,
                             SingerId = 1,
                             AlbumId = 1,
@@ -109,7 +109,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Pretty Savage",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/pretty-savage-tsvmccbsq8vvq4.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 1,
                             AlbumId = 1,
@@ -118,7 +118,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Bet You Wanna",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink-cardi-b/bet-you-wanna-tsvmccbmq8vvq8.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 3,
                             SingerId = 1,
                             AlbumId = 1,
@@ -127,7 +127,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Lovesick Girls",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/lovesick-girls-tsvmccb5q8vvqh.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 1,
                             SingerId = 1,
                             AlbumId = 1,
@@ -136,7 +136,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Crazy Over You",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/crazy-over-you-tsvmccb7q8vvqt.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 4,
                             SingerId = 1,
                             AlbumId = 2,
@@ -145,7 +145,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Love To Hate Me",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/love-to-hate-me-tsvmccb6q8vvqk.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 1,
                             AlbumId = 2,
@@ -154,7 +154,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "You Never Know",
-                            Url = "https://vi.chiasenhac.vn/mp3/blackpink/you-never-know-tsvmccb3q8vvqw.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 1,
                             AlbumId = 2,
@@ -164,7 +164,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Trên Tình Bạn Dưới Tình Yêu",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/tren-tinh-ban-duoi-tinh-yeu-single-xss7vwwsqt2994.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 2,
                             AlbumId = 2,
@@ -173,7 +173,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Đừng Yêu Nữa, Em Mệt Rồi",
-                            Url = "https://vi.chiasenhac.vn/mp3/min/dung-yeu-nua-em-met-roi-tsvrzdwsqa1m94.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 2,
                             AlbumId = 2,
@@ -182,7 +182,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Đừng Xin Lỗi Nữa",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/dung-xin-loi-nua-single-xss7q6rbqtekaq.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 3,
                             SingerId = 2,
                             AlbumId = 1,
@@ -191,7 +191,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Em Mới Là Người Yêu Anh",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/em-moi-la-nguoi-yeu-anh-single-xss7cdmvqtvm82.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 3,
                             SingerId = 2,
                             AlbumId = 1,
@@ -200,7 +200,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Người Em Tìm Kiếm",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/nguoi-em-tim-kiem-single-xss7tbzdqtfq1m.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 4,
                             SingerId = 2,
                             AlbumId = 2,
@@ -209,7 +209,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Có Em Chờ",
-                            Url = "https://vi.chiasenhac.vn/mp3/min-mra/co-em-cho-tsvdqrqdqmeaem.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 1,
                             SingerId = 2,
                             AlbumId = 1,
@@ -218,7 +218,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Hôn Anh",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/hon-anh-single-xssm05scq8nh4v.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 4,
                             SingerId = 2,
                             AlbumId = 2,
@@ -227,7 +227,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Ghen",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/ghen-single-xssm0q5wq8neh9.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 3,
                             SingerId = 2,
                             AlbumId = 1,
@@ -236,7 +236,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Sáng Mắt Chưa",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/sang-mat-chua-single-xss7mzs3qt814w.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 4,
                             SingerId = 3,
                             AlbumId = 2,
@@ -245,7 +245,7 @@ namespace MusicWorld.Models
                         new Musics
                         {
                             Name = "Bài Này Chill Phết",
-                            Url = "https://vi.chiasenhac.vn/nghe-album/bai-nay-chill-phet-single-xss7mdvwqt8m29.html",
+                            Url = "/Media/Hoa-Hai-Duong-Jack.mp3",
                             AuthorId = 2,
                             SingerId = 2,
                             AlbumId = 1,
