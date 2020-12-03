@@ -72,3 +72,8 @@ body {
 .widthobj{
     width : 20%;
 }
+.navibg {
+    background-image: url('https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/128556479_193078178956228_857209057773850400_n.png?_nc_cat=104&ccb=2&_nc_sid=ae9488&_nc_ohc=5XKXcWz2q6EAX-MHcsw&_nc_ht=scontent.fhan2-6.fna&oh=d457f458d68aae620845bc062ec717fb&oe=5FEC1129');
+    background-repeat: no-repeat;
+    background-size:cover;
+}

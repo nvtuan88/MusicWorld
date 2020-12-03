@@ -144,8 +144,6 @@ F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfoInputs.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.AssemblyInfo.cs
-F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csproj.CoreCompileInputs.cache
-F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.MvcApplicationPartsAssemblyInfo.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.RazorAssemblyInfo.cache
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.RazorAssemblyInfo.cs
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.TagHelpers.input.cache
@@ -186,3 +184,7 @@ F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Vi
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AuthorSummary.cshtml.g.cs
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NewSummary.cshtml.g.cs
 F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SingerSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\Castle.Core.dll
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csproj.CoreCompileInputs.cache
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.MvcApplicationPartsAssemblyInfo.cache

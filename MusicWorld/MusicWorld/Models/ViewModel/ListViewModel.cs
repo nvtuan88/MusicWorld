@@ -7,6 +7,7 @@ namespace MusicWorld.Models.ViewModel
 {
     public class ListViewModel
     {
+        public int ColumnCount { get; set; }
         public IEnumerable<Musics> Musics { get; set; }
         public IEnumerable<Singer> Singers { get; set; }
         public IEnumerable<Album> Albums { get; set; }

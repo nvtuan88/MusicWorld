@@ -8,6 +8,10 @@ namespace MusicWorld.Models
         {
 
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+            => optionsBuilder
+                .UseLazyLoadingProxies()
+                .UseSqlServer("Server = (localdb)\\MSSQLLocalDB; Database=musicworld;MultipleActiveResultSets=true");
 
         public DbSet<Musics> Musics { get; set; }
         public DbSet<Author> Authors { get; set; }
