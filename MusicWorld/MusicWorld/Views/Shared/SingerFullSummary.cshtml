@@ -1,0 +1,8 @@
+﻿@model Singer
+<img src="@Model.SingerImg" width="500" height="500" />
+<div>@Model.SingerName</div>
+<div>@Model.DescriptionSinger</div>
+@foreach (Musics m in Model.Musics)
+{
+    <partial name="MusicSummary" model="m" />
+}

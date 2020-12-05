@@ -91,5 +91,12 @@ namespace MusicWorld.Controllers
                 return View();
             }
         }
+
+        public ActionResult GroupByAlbumId()
+        {
+            var album_data = _context.Musics
+            .GroupBy(e => e.AlbumId);
+            return View(album_data);
+        }
     }
 }

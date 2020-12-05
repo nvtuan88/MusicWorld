@@ -1,0 +1,8 @@
+﻿@model ListViewModel
+<p>This is singer detail page</p>
+<div class="card-columns">
+    @foreach (var p in Model.Singers)//this model.author have only one result obj (from controller).
+    {
+        <partial name="SingerFullSummary" model="p" />
+    }
+</div>

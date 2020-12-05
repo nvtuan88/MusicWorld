@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MusicWorld.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -28,6 +28,7 @@ namespace MusicWorld.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     AuthorName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    AuthorImg = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DescriptionAuthor = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false)
                 },
                 constraints: table =>
@@ -42,6 +43,7 @@ namespace MusicWorld.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     SingerName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    SingerImg = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DescriptionSinger = table.Column<string>(type: "nvarchar(max)", maxLength: 10000, nullable: false)
                 },
                 constraints: table =>

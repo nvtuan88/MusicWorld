@@ -1,0 +1,7 @@
+﻿@model Author
+<div class="card">
+    <div class="card-img"><img src="@Model.AuthorImg" width="300" height="300" /> </div>
+    <div class="card-body">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AuthorDetailPage" asp-route-author_name="@Model.AuthorName"> @Model.AuthorName </a>
+    </div>
+</div>

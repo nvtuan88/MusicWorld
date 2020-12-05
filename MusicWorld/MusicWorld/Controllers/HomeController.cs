@@ -53,7 +53,21 @@ namespace MusicWorld.Controllers
         {
             Singers = repository.Singers,
         });
-
+        //[Route("/Home/Test", Name = "Custom")]
+        public IActionResult AuthorDetailPage(string author_name)
+        => View(new ListViewModel {
+        Authors = repository.Authors.Where(a => a.AuthorName == author_name)
+        } );
+        public IActionResult AlbumDetailPage(string album_name)
+=> View(new ListViewModel
+{
+    Albums = repository.Albums.Where(a => a.AlbumName == album_name)
+});
+        public IActionResult SingerDetailPage(string singer_name)
+=> View(new ListViewModel
+{
+    Singers = repository.Singers.Where(a => a.SingerName == singer_name)
+});
         public IActionResult Privacy()
         {
             return View();

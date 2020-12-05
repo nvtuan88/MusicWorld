@@ -25,21 +25,25 @@ namespace MusicWorld.Models
                     new Author
                     {
                         AuthorName = "Teddy",
+                        AuthorImg = "https://file.tinnhac.com/resize/600x-/music/2017/09/06/2700ve1453099589-bdc3.jpg",
                         DescriptionAuthor = "Teddy Park (sinh ngày 14 tháng 9 năm 1978) là một rapper, nhạc sĩ và nhà sản xuất thu âm người Mỹ gốc Hàn, nhà sản xuất nội bộ cho YG Entertainment."
                     },
                     new Author
                     {
                         AuthorName = "Đen Vâu",
+                        AuthorImg = "https://image.phunuonline.com.vn/news/2017/20171107/thumbnail/750x450/115656_tieu-su-rapper-den-vau-nguyen-duc-cuong-6189-7620792.jpg",
                         DescriptionAuthor = "Đen Vâu (sinh ngày 13 tháng 5 năm 1989) hay Đen là một nam rapper và nhạc sĩ người Việt Nam là một trong số ít nghệ sĩ thành công từ làn sóng underground và âm nhạc indie của Việt Nam."
                     },
                     new Author
                     {
                         AuthorName = "Khắc Hưng",
+                        AuthorImg = "https://cdn.pose.com.vn/assets/2018/10/khac_hung_1.jpg",
                         DescriptionAuthor = "Khắc Hưng tên đầy đủ là Nguyễn Khắc Hưng, còn có nghệ danh KHÙNG (sinh ngày 12 tháng 12 năm 1992 tại Yên Bái) là một nhà sản xuất âm nhạc, nhạc sĩ, ca sĩ người Việt Nam."
                     },
                     new Author
                     {
                         AuthorName = "Tiên Cookie",
+                        AuthorImg = "https://znews-photo.zadn.vn/w660/Uploaded/wyhktpu/2017_07_10/TienCookieslaaivagioitinhthatcuaTienCookies26e1471310307404.jpg",
                         DescriptionAuthor = "Tiên Cookie, tên thật là Nguyễn Thủy Tiên (sinh ngày 26 tháng 2 năm 1994) là nhạc sĩ, ca sĩ, nhà sản xuất âm nhạc của Việt Nam."
                     }
                     );
@@ -53,16 +57,19 @@ namespace MusicWorld.Models
                     new Singer
                     {
                         SingerName = "BlackPink",
+                        SingerImg = "https://cuoifly.tuoitre.vn/1200/900/ttc/r/2020/10/15/blackpink-1602732852-16x9.jpg",
                         DescriptionSinger = "BlackPink(BLΛƆKPIИK) là một nhóm nhạc nữ Hàn Quốc do công ty YG Entertainment thành lập và quản lý. Nhóm gồm 4 thành viên Jisoo, Jennie, Rosé, Lisa. Blackpink chính thức ra mắt với đĩa mở rộng đầu tay mang tên Square One gồm hai ca khúc 'Boombayah' và 'Whistle' vào năm 2016"
                     },
                     new Singer
                     {
                         SingerName = "Min",
+                        SingerImg = "https://static2.yan.vn/YanNews/2167221/201905/tieu-su-su-nghiep-va-cuoc-doi-cua-ca-si-min-f0ea35dc.jpg",
                         DescriptionSinger = "Min (sinh ngày 7 tháng 12 năm 1988) là một nữ ca sĩ, vũ công và nhà sản xuất âm nhạc người Việt Nam. Sau một thời gian được biết đến với tư cách là thành viên của nhóm nhảy St.319 (tiền thân của công ty giải trí St.319 Entertainment), cô ra mắt với tư cách ca sĩ solo vào năm 2013 với đĩa đơn đầu tay 'Tìm'"
                     },
                     new Singer
                     {
                         SingerName = "Trúc Nhân",
+                        SingerImg = "https://avatar-nct.nixcdn.com/singer/avatar/2019/08/19/3/e/8/c/1566179852233_600.jpg",
                         DescriptionSinger = "Trúc Nhân (sinh ngày 30 tháng 11 năm 1991) là một nam ca sĩ người Việt Nam. Anh được biết đến khi tham gia chương trình Giọng hát Việt mùa đầu tiên"
                     }
                     );

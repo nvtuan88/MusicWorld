@@ -7,17 +7,26 @@
     }
 </div>
 <h5 style="font-size:32px; margin: 48px 0px 32px 0px"> HOT SINGERS </h5>
-@foreach (var s in Model.Singers.Take(3))
-{
-    <partial name="SingerSummary" model="s" />
-}
-<h5 style="font-size:32px"> HOT ALBUMS </h5>
-@foreach (var a in Model.Albums.Take(3))
-{
-    <partial name="AlbumSummary" model="a" />
-} 
-<h5 style="font-size:32px"> HOT AUTHORS </h5>
-@foreach (var b in Model.Authors.Take(3))
-{
-    <partial name="AuthorSummary" model="b" />
-}
+<div class="card-columns" style="column-count:3">
+    @foreach (var s in Model.Singers.Take(3))
+    {
+        <partial name="SingerSummary" model="s" />
+
+    }
+</div>
+    <h5 style="font-size:32px"> HOT ALBUMS </h5>
+    <div class="card-columns" style="column-count:3" >
+        @foreach (var a in Model.Albums.Take(3))
+        {
+            <partial name="AlbumSummary" model="a" />
+        }
+    </div>
+   
+    <h5 style="font-size:32px"> HOT AUTHORS </h5>
+    <div class="card-columns" style="column-count:3">
+        @foreach (var b in Model.Authors.Take(3))
+        {
+            <partial name="AuthorSummary" model="b" />
+        }
+    </div>
+   

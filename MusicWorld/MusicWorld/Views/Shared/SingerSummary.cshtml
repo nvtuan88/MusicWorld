@@ -1,6 +1,10 @@
 ﻿@model Singer
 <div class="card">
-    <div class="card-body">
-        <h5 class="card-title">@Model.SingerName</h5>
-    </div>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SingerDetailPage" asp-route-singer_name="@Model.SingerName">
+        <div class="card-img"> <img src="@Model.SingerImg" width="300" height="300" /></div>
+        <div class="card-body">
+            @*<a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="SingerDetailPage" asp-route-album_name="@Model.SingerName"> @Model.SingerName </a>*@
+            <h5>@Model.SingerName</h5>
+        </div>
+    </a>
 </div>

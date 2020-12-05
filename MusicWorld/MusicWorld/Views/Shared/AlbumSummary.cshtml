@@ -1,6 +1,10 @@
 ﻿@model Album
 <div class="card">
-    <div class="card-body">
-        <h5 class="card-title">@Model.AlbumName</h5>
-    </div>
+    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AlbumDetailPage" asp-route-album_name="@Model.AlbumName">
+        <div class="card-img"><img src="@Model.Image" width="300" height="300" /> </div>
+        <div class="card-body">
+            <h5>@Model.AlbumName</h5>
+        </div>
+    </a>
+
 </div>

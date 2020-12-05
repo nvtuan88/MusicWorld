@@ -289,3 +289,11 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netco
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.dll
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.pdb
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.genruntimeconfig.cache
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AuthorIndexSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AuthorFullSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\AuthorDetailPage.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\MusicWorld.csprojAssemblyReference.cache
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\AlbumDetailPage.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\AlbumFullSummary.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\SingerDetailPage.cshtml.g.cs
+F:\GithubRepos\MusicWorld\MusicWorld\MusicWorld\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SingerFullSummary.cshtml.g.cs

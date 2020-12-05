@@ -46,6 +46,9 @@ namespace MusicWorld.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("AuthorImg")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("AuthorName")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -107,6 +110,9 @@ namespace MusicWorld.Migrations
                     b.Property<string>("DescriptionSinger")
                         .IsRequired()
                         .HasMaxLength(10000)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SingerImg")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SingerName")

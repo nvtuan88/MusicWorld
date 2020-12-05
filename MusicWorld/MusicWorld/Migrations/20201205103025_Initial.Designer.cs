@@ -10,8 +10,8 @@ using MusicWorld.Models;
 namespace MusicWorld.Migrations
 {
     [DbContext(typeof(StoreDBContext))]
-    [Migration("20201203115050_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20201205103025_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,6 +47,9 @@ namespace MusicWorld.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("AuthorImg")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("AuthorName")
                         .IsRequired()
@@ -109,6 +112,9 @@ namespace MusicWorld.Migrations
                     b.Property<string>("DescriptionSinger")
                         .IsRequired()
                         .HasMaxLength(10000)
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SingerImg")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SingerName")

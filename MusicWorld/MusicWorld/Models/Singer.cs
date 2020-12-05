@@ -12,7 +12,7 @@ namespace MusicWorld.Models
 
         [Required, StringLength(100), Display(Name ="Singer Name")]
         public string SingerName { get; set; }
-
+        public string SingerImg { get; set; }
         [Required, StringLength(10000), Display(Name = "Singer Description"), DataType(DataType.MultilineText)]
         public string DescriptionSinger { get; set; }
 
