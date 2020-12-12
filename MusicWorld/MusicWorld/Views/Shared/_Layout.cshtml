@@ -37,9 +37,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Author">Authors</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Musics" asp-action="Index">List Music</a>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Backend<span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background: rgba(0, 0, 0, 0.9)">
+                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Musics" asp-action="Index">List Music</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Authors" asp-action="Index">List Auhor</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Singers" asp-action="Index">List Singer</a></li>
+                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Albums" asp-action="Index">List Album</a></li>
+                                
+                            </ul>
                         </li>
+
                     </ul>
                 </div>
             </div>
