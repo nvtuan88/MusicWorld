@@ -9,7 +9,7 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table-bordered">
     <thead>
         <tr>
             <th>
@@ -35,7 +35,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="bg-info">
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>

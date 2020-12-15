@@ -1,5 +1,5 @@
 ﻿@model Musics
-<div class="card" style="width:100%;height:255px;background:rgba(255, 255, 255, 0.75)" >
+<div class="card" style="width:100%;height:280px;background:rgba(255, 255, 255, 0.75)">
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
         <h5 class="card-title font-weight-lighter">Author: @Model.Authors.AuthorName</h5>
@@ -9,15 +9,18 @@
             <source src="@Model.Url" type="audio/mpeg" />
             Your browser does not support the audio element.
         </audio>
+        <div class="card-text">
+            <form method="post" asp-page="/Play" id="@Model.Id" style="position:absolute;bottom:0;right:0">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" name="returnUrl"
+                       value="@ViewContext.HttpContext.Request.PathAnyQuery()" />
+                <span class="col text-center">
+                    <button type="submit" class="btn btn-success btn-sm">
+                        Add To Playlist
+                    </button>
+                </span>
+            </form>
+        </div>
     </div>
-    <form method="post" asp-page="/Play" id="@Model.Id" style="position:absolute;bottom:0;right:0">
-        <input type="hidden" asp-for="Id" />
-        <input type="hidden" name="returnUrl"
-               value="@ViewContext.HttpContext.Request.PathAnyQuery()" />
-        <span class="card-text p-1">
-            <button type="submit" class="btn btn-success btn-sm pull-right" style="float:right">
-                Add To Cart
-            </button>
-        </span>
-    </form>
 </div>
+

@@ -26,7 +26,7 @@ namespace MusicWorld.Controllers
                     Singers = repository.Singers,
                     Albums = repository.Albums,
                     Authors = repository.Authors,
-                    ColumnCount = 5
+                    ColumnCount = 3
                 });
 
         public ViewResult Albums()

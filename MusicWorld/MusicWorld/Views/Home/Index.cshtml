@@ -1,32 +1,60 @@
 ﻿@model ListViewModel
-<h5 style="font-size:32px; margin: 64px 0px 32px 0px"> HOT MUSICS </h5>
-<div class="card-columns" style="column-count:@Model.ColumnCount">
-    @foreach (var p in Model.Musics.Take(Model.ColumnCount))
-    {
-        <partial name="MusicSummary" model="p" />
-    }
+<div class="container pt-5 hero">
+    <div class="row align-items-center text-center text-md-left">
+        <div class="col-lg-5">
+            <h1 class="mb-3 display-3"><b style="color: lightblue">LIFE</b> is a song, <b style="color: lightpink">LOVE</b> is the music...</h1>
+            <p>Join with us! Login or Register. Let music flow in your heart and enrich your soul!</p>
+        </div>
+        <div class="col-lg-7">
+            <img src="~/images/music3.jpg" alt="Image" class="img-fluid">
+        </div>
+    </div>
 </div>
-<h5 style="font-size:32px; margin: 48px 0px 32px 0px"> HOT SINGERS </h5>
-<div class="card-columns" style="column-count:3">
-    @foreach (var s in Model.Singers.Take(3))
-    {
-        <partial name="SingerSummary" model="s" />
 
-    }
-</div>
-    <h5 style="font-size:32px"> HOT ALBUMS </h5>
-    <div class="card-columns" style="column-count:3" >
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-md-12 text-center">
+            <h2 class="font-weight-bold text-black">HOT MUSIC</h2>
+        </div>
+    </div>
+    <div style="column-count:@Model.ColumnCount">
+        @foreach (var p in Model.Musics.Take(Model.ColumnCount))
+        {
+            <partial name="MusicSummary" model="p" />
+        }
+    </div>
+    <div class="row mb-5 mt-3">
+        <div class="col-md-12 text-center">
+            <h2 class="font-weight-bold text-black">HOT SINGERS</h2>
+        </div>
+    </div>
+    <div class="card-columns" style="column-count:3">
+        @foreach (var s in Model.Singers.Take(3))
+        {
+            <partial name="SingerSummary" model="s" />
+
+        }
+    </div>
+    <div class="row mb-5 mt-3">
+        <div class="col-md-12 text-center">
+            <h2 class="font-weight-bold text-black">HOT ALBUMS</h2>
+        </div>
+    </div>
+    <div class="card-columns" style="column-count:3">
         @foreach (var a in Model.Albums.Take(3))
         {
             <partial name="AlbumSummary" model="a" />
         }
     </div>
-   
-    <h5 style="font-size:32px"> HOT AUTHORS </h5>
+    <div class="row mb-5 mt-3">
+        <div class="col-md-12 text-center">
+            <h2 class="font-weight-bold text-black">HOT AUTHORS</h2>
+        </div>
+    </div>
     <div class="card-columns" style="column-count:3">
         @foreach (var b in Model.Authors.Take(3))
         {
             <partial name="AuthorSummary" model="b" />
         }
     </div>
-   
+</div>

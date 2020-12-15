@@ -5,65 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MusicWorld</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/fontStyle.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/jquery-ui.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/aos.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/style.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body style="background-image: url('https://scontent.fhan2-6.fna.fbcdn.net/v/t1.15752-9/128859549_388724852453055_613663779734189473_n.png?_nc_cat=104&ccb=2&_nc_sid=ae9488&_nc_ohc=-ayxuBslPvgAX8B8i1_&_nc_ht=scontent.fhan2-6.fna&oh=92ba8d8784edace59826d8d85e8f01ca&oe=5FEBE0C5'); background-repeat: no-repeat; background-size: cover; ">
-    <header style="margin-bottom:70px">
-        <nav class="navbar fixed-top navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 navibg"
-             style="background:rgba(0, 0, 0, 0.9)" >
-            <div class="container">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">MusicWorld</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="News">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Musics">Musics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Singers">Singers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Albums">Albums</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Author">Authors</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Backend<span class="caret"></span></a>
-                            <ul class="dropdown-menu" style="background: rgba(0, 0, 0, 0.9)">
-                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Musics" asp-action="Index">List Music</a></li>
-                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Authors" asp-action="Index">List Auhor</a></li>
-                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Singers" asp-action="Index">List Singer</a></li>
-                                <li class="nav-item"><a class="nav-link text-white" asp-area="" asp-controller="Albums" asp-action="Index">List Album</a></li>
-                                
-                            </ul>
-                        </li>
+<body>
+    <div class="site-wrap">
 
-                    </ul>
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - MusicWorld - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="site-mobile-menu-body"></div>
         </div>
-    </footer>
+
+
+        <header class="site-navbar py-4" role="banner">
+
+            <div class="container">
+                <div class="row align-items-center">
+
+
+                    <div class="col-3">
+                        <h1 class="site-logo"><a asp-area="" asp-controller="Home" asp-action="Index" class="h2">MusicWorld<span class="text-primary">.</span> </a></h1>
+                    </div>
+                    <div class="col-9">
+                        <nav class="site-navigation position-relative text-right text-md-right" role="navigation">
+
+
+
+                            <div class="d-block d-lg-none ml-md-0 mr-auto"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+                            <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                <li class="active">
+                                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="News">News</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Musics">Music</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Singers">Singers</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Albums">Albums</a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Author">Author</a></li>
+                                <li class="has-children">
+                                    <a href="#">Backend</a>
+                                    <ul class="dropdown">
+                                        <li><a asp-area="" asp-controller="Musics" asp-action="Index">List Music</a></li>
+                                        <li><a asp-area="" asp-controller="Authors" asp-action="Index">List Author</a></li>
+                                        <li><a asp-area="" asp-controller="Singers" asp-action="Index">List Singer</a></li>
+                                        <li><a asp-area="" asp-controller="Albums" asp-action="Index">List Album</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Login / Register</a></li>
+
+                            </ul>
+                        </nav>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium animi, odio beatae aspernatur natus recusandae quasi magni eum voluptatem nam!</p>
+                    </div>
+                    <div class="col-lg-3 mx-auto">
+                        <h3>Navigation</h3>
+                        <ul class="list-unstyled">
+                            <li><a asp-area="" asp-controller="Home" asp-action="Musics">Music</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Singers">Singers</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Albums">Albums</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Author">Authors</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="News">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Subscribe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quibusdam!</p>
+                        <form action="#" class="form-subscribe">
+                            <input type="email" class="form-control mb-3" placeholder="Enter Email">
+                            <input type="submit" class="btn btn-primary" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
