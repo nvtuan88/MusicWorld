@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Admin.Models.Musics>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="_music">
+    <h1>Music</h1>
+
+    <p>
+        <a class="btn-primary" asp-action="Create">Create New</a>
+    </p>
+
+    <table class="table table-responsive-sm table-hover table-outline mb-0">
+        <thead class="thead-light">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Author
+                </th>
+                <th>
+                    Singer
+                </th>
+                <th>
+                    Album
+                </th>
+                <th>
+                    ReleaseDate
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Authors.AuthorName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Singers.DescriptionSinger)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Albums.AlbumName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReleaseDate)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

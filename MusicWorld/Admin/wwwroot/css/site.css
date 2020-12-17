@@ -1,0 +1,19 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+.table-outline {
+    margin:auto;
+    background:#fff;
+}
+.main > div {
+    padding:20px;
+}
+.main > div a.btn-primary {
+    padding:7px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}
+.table-outline tr td,
+.table-outline tr th {
+    border: 1px solid #c8ced3;
+
+}
