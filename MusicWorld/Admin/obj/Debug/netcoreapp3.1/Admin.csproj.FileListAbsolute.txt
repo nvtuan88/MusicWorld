@@ -183,11 +183,6 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Musics\Details.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Musics\Edit.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Musics\Index.cshtml.g.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Create.cshtml.g.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Delete.cshtml.g.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Details.cshtml.g.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Edit.cshtml.g.cs
-D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Index.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Authors\Create.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Authors\Delete.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Authors\Details.cshtml.g.cs
@@ -202,3 +197,8 @@ D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutFullScreen.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavBar.cshtml.g.cs
 D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SideBar.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Create.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Delete.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Details.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Edit.cshtml.g.cs
+D:\Work\xampp\htdocs\MusicWorld\MusicWorld\MusicWorld\Admin\obj\Debug\netcoreapp3.1\Razor\Views\Albums\Index.cshtml.g.cs

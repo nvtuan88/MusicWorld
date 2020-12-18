@@ -6,16 +6,23 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Admin.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using Microsoft.AspNetCore.Http;
 
 namespace Admin.Controllers
 {
     public class AlbumsController : Controller
     {
         private readonly StoreDBContext _context;
+        [Obsolete]
+        private readonly IHostingEnvironment _hostEnvironment;
 
-        public AlbumsController(StoreDBContext context)
+        [Obsolete]
+        public AlbumsController(StoreDBContext context, IHostingEnvironment hostingEnvironment)
         {
             _context = context;
+            _hostEnvironment = hostingEnvironment;
         }
 
         // GET: Albums
@@ -53,10 +60,33 @@ namespace Admin.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Obsolete]
         public async Task<IActionResult> Create([Bind("Id,Image,AlbumName")] Album album)
         {
             if (ModelState.IsValid)
             {
+                string UrlImage = "";
+                var files = HttpContext.Request.Form.Files;
+                foreach (var Image in files)
+                {
+                    if (Image != null && Image.Length > 0)
+                    {
+                        var file = Image;
+                        var uploads = Path.Combine(_hostEnvironment.WebRootPath, "images");
+                        if (file.Length > 0)
+                        {
+                            var fileName = Guid.NewGuid().ToString().Replace("-", "") + file.FileName;
+                            using (var fileStream = new FileStream(Path.Combine(uploads, fileName), FileMode.Create))
+                            {
+                                await file.CopyToAsync(fileStream);
+                                UrlImage = fileName;
+                            }
+                        }
+                    }
+                }
+
+
+
                 _context.Add(album);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
