@@ -1,8 +1,13 @@
 ﻿@model ListViewModel
-<p>This is albums page</p>
-<div class="card-columns">
-    @foreach (var p in Model.Albums)
-    {
-        <partial name="AlbumSummary" model="p" />
-    }
-</div>
+
+    <img src="~/images/banner7.jpg" alt="Image" class="img-fluid" style="align-content: center">
+    <div style="text-align: center">
+        <h2><b>HOT Album</b></h2>
+    </div>
+    <p>This is albums page</p>
+    <div class="card-columns">
+        @foreach (var p in Model.Albums)
+        {
+            <partial name="AlbumSummary" model="p" />
+        }
+    </div>

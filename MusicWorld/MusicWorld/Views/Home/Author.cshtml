@@ -1,8 +1,12 @@
 ﻿@model ListViewModel
-<p>This is author page</p>
-<div class="card-columns">
-    @foreach (var p in Model.Authors)
-    {
-        <partial name="AuthorSummary" model="p" />
-    }
-</div>
+
+    <img src="~/images/banner2.jpg" alt="Image" class="img-fluid" style="align-content: center">
+    <div style="text-align: center">
+        <h2><b>HOT Author</b></h2>
+    </div>
+    <div class="card-columns">
+        @foreach (var p in Model.Authors)
+        {
+            <partial name="AuthorSummary" model="p" />
+        }
+    </div>
